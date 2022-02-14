@@ -30,7 +30,7 @@
 
 # server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
 # server_names = ['mullvad-doh', 'mullvad-adblock-doh']
-server_names = ['mullvad-doh']
+server_names = ['cloudflare']
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
 ## Example with both IPv4 and IPv6:
