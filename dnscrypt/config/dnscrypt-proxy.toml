@@ -39,8 +39,8 @@ server_names = ['mullvad-doh']
 ## To listen to all IPv4 addresses, use `listen_addresses = ['0.0.0.0:53']`
 ## To listen to all IPv4+IPv6 addresses, use `listen_addresses = ['[::]:53']`
 
-listen_addresses = ['0.0.0.0:53']
-
+#listen_addresses = ['0.0.0.0:53']
+listen_addresses = ['0.0.0.0:5300'] # listening to pihole
 
 ## Maximum number of simultaneous client connections to accept
 
