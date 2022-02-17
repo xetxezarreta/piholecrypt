@@ -29,11 +29,12 @@ services:
     environment:
       TZ: "Europe/Madrid"
       WEBPASSWORD: "admin"
+      QUERY_LOGGING: "false"
       DNS1: "10.0.1.2#5300"
       DNS2: "no"
-    #volumes:
-    #   - ./pihole/etc-pihole/:/etc/pihole/
-    #   - ./pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/
+    volumes:
+       - ./pihole/etc-pihole/:/etc/pihole/
+       - ./pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/
     dns:
       - 1.1.1.1
     restart: unless-stopped
