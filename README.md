@@ -74,7 +74,7 @@ networks:
 ```bash
 docker-compose pull
 ```
-2. Upgrade runnin containers using latest images. `up` command automatically recreates container on image or configuration change.
+2. Upgrade running containers using latest images. `up` command automatically recreates container on image or configuration change.
 ```bash
 docker-compose up -d
 ```
