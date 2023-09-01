@@ -1,6 +1,6 @@
 FROM debian:bullseye-slim as downloader
 
-ENV URL https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/2.1.2/dnscrypt-proxy-linux_arm64-2.1.2.tar.gz
+ENV URL https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/2.1.5/dnscrypt-proxy-linux_arm64-2.1.5.tar.gz
 
 RUN apt-get update \
  && apt-get install -qqy \
