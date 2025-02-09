@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim as downloader
+FROM debian:bookworm-slim as downloader
 
 ENV URL https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/2.1.7/dnscrypt-proxy-linux_arm64-2.1.7.tar.gz
 
